@@ -1,0 +1,13 @@
+[package]
+name = "pdf_dirsearch"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "*"
+clap = { version = "4.5.3", features = ["derive"] }
+anyhow = "1.0.81"
+colored = "2.1.0"
+indicatif = "0.17.8"
